@@ -1,15 +1,15 @@
-# Introduction
+
 
 [原文：Mac Gitbook 安装使用](https://blog.csdn.net/wxb880114/article/details/82078837)
 
-环境安装
-node 安装
+# 环境安装
+## node 安装
 
 brew install node
-gitbook 安装
+## gitbook 安装
 
 brew install  gitbook
-Calibre 安装
+## Calibre 安装
 
 https://calibre-ebook.com/download_osx
 
@@ -30,13 +30,13 @@ info: found 4 asset files
  
 InstallRequiredError: "ebook-convert" is not installed.
 Install it from Calibre: https://calibre-ebook.com
-Gitbook使用
-Gitbook初始化
+## Gitbook使用
+### Gitbook初始化
 gitbook init
 
 
-目录大纲编写
-格式说明
+## 目录大纲编写
+### 格式说明
 
 [章节名称](层级目录1/层级目录2/层级目录3/...)
 
@@ -63,22 +63,22 @@ tips: 目录要完整
         * [2.5.1 XXX](第二章 XXX理论/2.5 XXX/2.5.1 XXX/readme.md)
         * [2.5.2 XXX](第二章 XXX理论/2.5 XXX/2.5.2 XXX/readme.md)
  
-执行 gitbook init
+## 执行 gitbook init
 
 
 
-文件目录结构
+##文件目录结构
 
 
 
-本地发布
+## 本地发布
 
 gitbook serve
 
 
 
 
-导出其他格式
+## 导出其他格式
 gitbook pdf
 
 
@@ -87,11 +87,7 @@ gitbook pdf
 gitbook epub
  
 
-MarkDown 编辑器
-
-sublimetext2 下载安装
-
-上传github
+## 上传github
   568  git init
   569  ls
   570  git remote add origin https://github.com/watemei/bookFirst.git
