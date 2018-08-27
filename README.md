@@ -88,6 +88,7 @@ gitbook epub
  
 
 ## 上传github
+  ```
   568  git init
   569  ls
   570  git remote add origin https://github.com/watemei/bookFirst.git
@@ -99,3 +100,4 @@ gitbook epub
   576  git commit -m "add bookFirst tp github"
   577  git push -u origin master
  
+```
