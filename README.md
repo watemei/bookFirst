@@ -92,12 +92,15 @@ gitbook epub
   568  git init
   569  ls
   570  git remote add origin https://github.com/watemei/bookFirst.git
-  571  git add
+  571  git pull
   572  git add .
   573  ls
   574  git status
   575  ls
   576  git commit -m "add bookFirst tp github"
   577  git push -u origin master
+  
+  git pull origin master --allow-unrelated-histories
+  
  
 ```
